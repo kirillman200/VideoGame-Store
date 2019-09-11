@@ -17,7 +17,7 @@ namespace VideoGame_Store.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "I can change it.";
 
             return View();
         }
